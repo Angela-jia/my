@@ -1,0 +1,1 @@
+var str=[1,6,3,2,5,6,9];console.log(require("./a.js")(str)),console.log(require("./b.js")(require("./a.js")(str)));
